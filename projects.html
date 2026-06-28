@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Studio NACRT US</title>
+<meta name="description" content="Selected interior design projects by Studio NACRT - residences, villas, apartments, hotels, and restaurants.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="canonical" href="https://studionacrt.us/projects">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#000000">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Studio NACRT US">
+<meta property="og:title" content="Projects | Studio NACRT US Luxury Interior Design">
+<meta property="og:description" content="Selected interior design projects by Studio NACRT US - luxury residences, villas, apartments, hotels, and restaurants from concept to final install.">
+<meta property="og:url" content="https://studionacrt.us/projects">
+<meta property="og:image" content="https://studionacrt.us/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Projects | Studio NACRT US Luxury Interior Design">
+<meta name="twitter:description" content="Selected interior design projects by Studio NACRT US - luxury residences, villas, apartments, hotels, and restaurants from concept to final install.">
+<meta name="twitter:image" content="https://studionacrt.us/og-image.jpg">
+</head>
+<body>
+<header class="scrolled">
+  <a class='logo' href='/'>Studio NACRT</a>
+  <nav>
+    <ul>
+      <li><a href='/'>Home</a></li>
+      <li><a href='/projects'>Projects</a></li>
+      <li><a href='/services'>Services</a></li>
+      <li><a href='/about'>About</a></li>
+      <li><a href='/contact'>Contact</a></li>
+    </ul>
+  </nav>
+  <button class="menu-btn" aria-label="Menu">&#9776;</button>
+</header>
+
+<section class="wrap" style="padding-top:clamp(120px,16vw,180px)">
+  <div class="sec-head reveal" style="padding-top:0">
+    <h2>Selected Work</h2>
+  </div>
+  <p class="reveal" style="max-width:60ch;font-weight:300;color:#ccc;font-size:17px;margin-bottom:10px">A portfolio of completed and visualized interiors across residences, villas, apartments, hotels, and restaurants. Click any project to view the gallery.</p>
+  <div class="filters" id="filters">
+<button class="active" onclick="filter('All',this)">All</button>
+<button class="" onclick="filter('Apartments',this)">Apartments</button>
+<button class="" onclick="filter('Hotels',this)">Hotels</button>
+<button class="" onclick="filter('Restaurants',this)">Restaurants</button>
+<button class="" onclick="filter('Villas',this)">Villas</button>
+</div>
+  <div class="grid" id="all-grid">
+<div class="card" data-cat="Apartments" onclick="openProject('belmondo-penthouse')"><img src="images/projects/belmondo-penthouse-0.jpg" alt="Belmondo Penthouse - Apartments interior in Serbia by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Belmondo Penthouse</h3><span>Apartments &middot; Serbia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('belmondo-house')"><img src="images/projects/belmondo-house-0.jpg" alt="Belmondo House - Apartments interior in Serbia by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Belmondo House</h3><span>Apartments &middot; Serbia</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('round')"><img src="images/projects/round-0.jpg" alt="Round - Villas interior in Slovenia by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Round</h3><span>Villas &middot; Slovenia</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('stoliv-hillside')"><img src="images/projects/stoliv-hillside-0.jpg" alt="Stoliv Hillside - Villas interior in Montenegro by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Stoliv Hillside</h3><span>Villas &middot; Montenegro</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('pula')"><img src="images/projects/pula-0.jpg" alt="Pula - Villas interior in Croatia by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Pula</h3><span>Villas &middot; Croatia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('daylight-house')"><img src="images/projects/daylight-house-0.jpg" alt="Daylight House - Apartments interior in Serbia by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Daylight House</h3><span>Apartments &middot; Serbia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('rivijera')"><img src="images/projects/rivijera-0.jpg" alt="Rivijera - Apartments interior in Serbia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Rivijera</h3><span>Apartments &middot; Serbia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('seaside-agava')"><img src="images/projects/seaside-agava-0.jpg" alt="Seaside Agava - Apartments interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Seaside Agava</h3><span>Apartments &middot; Croatia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('the-art-of-subtle-luxury')"><img src="images/projects/the-art-of-subtle-luxury-0.jpg" alt="The Art Of Subtle Luxury - Apartments interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>The Art Of Subtle Luxury</h3><span>Apartments &middot; Croatia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('warm-minimalism')"><img src="images/projects/warm-minimalism-0.jpg" alt="Warm Minimalism - Apartments interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Warm Minimalism</h3><span>Apartments &middot; Croatia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('soul')"><img src="images/projects/soul-0.jpg" alt="Soul - Apartments interior in Serbia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Soul</h3><span>Apartments &middot; Serbia</span></div></div>
+<div class="card" data-cat="Hotels" onclick="openProject('boutique-hotel-venturo')"><img src="images/projects/boutique-hotel-venturo-0.jpg" alt="Boutique Hotel Venturo - Hotels interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Boutique Hotel Venturo</h3><span>Hotels &middot; Croatia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('sky-duplex')"><img src="images/projects/sky-duplex-0.jpg" alt="Sky Duplex - Apartments interior in Serbia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Sky Duplex</h3><span>Apartments &middot; Serbia</span></div></div>
+<div class="card" data-cat="Restaurants" onclick="openProject('konoba')"><img src="images/projects/konoba-0.jpg" alt="Konoba - Restaurants interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Konoba</h3><span>Restaurants &middot; Croatia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('rithmanova')"><img src="images/projects/rithmanova-0.jpg" alt="Rithmanova - Apartments interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Rithmanova</h3><span>Apartments &middot; Croatia</span></div></div>
+<div class="card" data-cat="Restaurants" onclick="openProject('shelemburg-pizzeria')"><img src="images/projects/shelemburg-pizzeria-0.jpg" alt="Shelemburg Pizzeria - Restaurants interior in Slovenia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Shelemburg Pizzeria</h3><span>Restaurants &middot; Slovenia</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('dream-villa-lucan')"><img src="images/projects/dream-villa-lucan-0.jpg" alt="Dream Villa Lucan - Villas interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Dream Villa Lucan</h3><span>Villas &middot; Croatia</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('new-sail-villa')"><img src="images/projects/new-sail-villa-0.jpg" alt="New Sail Villa - Villas interior in Slovenia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>New Sail Villa</h3><span>Villas &middot; Slovenia</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('shumadijski-kutak')"><img src="images/projects/shumadijski-kutak-0.jpg" alt="Shumadijski Kutak - Villas interior in Serbia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Shumadijski Kutak</h3><span>Villas &middot; Serbia</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('vienna-pearl')"><img src="images/projects/vienna-pearl-0.jpg" alt="Vienna Pearl - Villas interior in Austria by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Vienna Pearl</h3><span>Villas &middot; Austria</span></div></div>
+<div class="card" data-cat="Villas" onclick="openProject('heart-of-shumadia')"><img src="images/projects/heart-of-shumadia-0.jpg" alt="Heart Of Shumadia - Villas interior in Serbia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Heart Of Shumadia</h3><span>Villas &middot; Serbia</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('zaton')"><img src="images/projects/zaton-0.jpg" alt="Zaton - Apartments interior in Croatia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Zaton</h3><span>Apartments &middot; Croatia</span></div></div>
+<div class="card" data-cat="Hotels" onclick="openProject('mimet')"><img src="images/projects/mimet-0.jpg" alt="Mimet - Hotels interior in Miami by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Mimet</h3><span>Hotels &middot; Miami</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('davos-chalet')"><img src="images/projects/davos-chalet-0.jpg" alt="Davos Chalet - Apartments interior in Switzerland by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Davos Chalet</h3><span>Apartments &middot; Switzerland</span></div></div>
+<div class="card" data-cat="Apartments" onclick="openProject('belgrade-hram-residence')"><img src="images/projects/belgrade-hram-residence-0.jpg" alt="Belgrade Hram Residence - Apartments interior in Serbia by Studio NACRT US" loading="lazy" width="600" height="800"><div class="card-info"><h3>Belgrade Hram Residence</h3><span>Apartments &middot; Serbia</span></div></div>
+</div>
+  <div style="height:80px"></div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-brand">STUDIO NACRT</div>
+    <div class="foot-top">
+      <div class="foot-col">
+        <h4>Studio</h4>
+        <a href='/about'>About</a>
+        <a href='/projects'>Projects</a>
+        <a href='/services'>Services</a>
+        <a href='/contact'>Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:info@studionacrt.us">info@studionacrt.us</a>
+        <p>Miami, FL</p>
+      </div>
+      <div class="foot-col">
+        <h4>Follow</h4>
+        <a href="https://instagram.com/studionacrt.us" target="_blank" rel="noopener">@studionacrt.us</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Studio NACRT US. All rights reserved.</span>
+      <span>From sketch to realization.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" onclick="closeLb()">&times;</button>
+  <button class="lb-nav lb-prev" onclick="lbPrev()">&#8249;</button>
+  <img id="lb-img" src="" alt="">
+  <button class="lb-nav lb-next" onclick="lbNext()">&#8250;</button>
+  <div class="lb-title" id="lb-title"></div>
+  <div class="lb-thumbs" id="lb-thumbs"></div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+# Studio NACRT US - Netlify configuration
+
+[build]
+  publish = "."
+
+# Pretty-URL redirects so /projects, /about, /contact, /services resolve to .html
+[[redirects]]
+  from = "/projects"
+  to = "/projects.html"
+  status = 200
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 200
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/services"
+  to = "/services.html"
+  status = 200
+[[redirects]]
+  from = "/services/residential"
+  to = "/services/residential.html"
+  status = 200
+[[redirects]]
+  from = "/services/multifamily-commercial"
+  to = "/services/multifamily-commercial.html"
+  status = 200
+[[redirects]]
+  from = "/services/hospitality"
+  to = "/services/hospitality.html"
+  status = 200
+[[redirects]]
+  from = "/services/3d-visualization"
+  to = "/services/3d-visualization.html"
+  status = 200
+
+# Long cache for static assets
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+[[headers]]
+  for = "/videos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+# Security headers (site-wide)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
