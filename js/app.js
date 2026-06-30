@@ -110,6 +110,22 @@ function initLazyVideos(){
   vids.forEach(v=>vio.observe(v));
 }
 
+
+// ---- Homepage: Show More Projects (reveal hidden, then link to full Projects page) ----
+function showMoreProjects(){
+  var btn = document.getElementById('show-more-btn');
+  var hidden = document.querySelectorAll('#featured-grid .more-card');
+  if (hidden.length && hidden[0].style.display === 'none'){
+    hidden.forEach(function(c){ c.style.display=''; });
+    if (window.observeReveals) observeReveals();
+    // After revealing the second batch, turn the button into a link to all projects
+    btn.textContent = 'View All Projects';
+    btn.onclick = function(){ window.location.href = '/projects'; };
+  } else {
+    window.location.href = '/projects';
+  }
+}
+
 // init
 document.addEventListener('DOMContentLoaded', ()=>{
   observeReveals();
