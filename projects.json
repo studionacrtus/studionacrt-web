@@ -1,352 +1,352 @@
 [
- {
-  "title": "Belmondo Penthouse",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "belmondo-penthouse",
-  "images": [
-   "images/projects/belmondo-penthouse-0.jpg",
-   "images/projects/belmondo-penthouse-1.jpg",
-   "images/projects/belmondo-penthouse-2.jpg",
-   "images/projects/belmondo-penthouse-3.jpg",
-   "images/projects/belmondo-penthouse-4.jpg",
-   "images/projects/belmondo-penthouse-5.jpg"
-  ]
- },
- {
-  "title": "Belmondo House",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "belmondo-house",
-  "images": [
-   "images/projects/belmondo-house-0.jpg",
-   "images/projects/belmondo-house-1.jpg",
-   "images/projects/belmondo-house-2.jpg",
-   "images/projects/belmondo-house-3.jpg",
-   "images/projects/belmondo-house-4.jpg",
-   "images/projects/belmondo-house-5.jpg"
-  ]
- },
- {
-  "title": "Round",
-  "category": "Villas",
-  "city": "Slovenia",
-  "slug": "round",
-  "images": [
-   "images/projects/round-0.jpg",
-   "images/projects/round-1.jpg",
-   "images/projects/round-2.jpg",
-   "images/projects/round-3.jpg",
-   "images/projects/round-4.jpg",
-   "images/projects/round-5.jpg"
-  ]
- },
- {
-  "title": "Stoliv Hillside",
-  "category": "Villas",
-  "city": "Montenegro",
-  "slug": "stoliv-hillside",
-  "images": [
-   "images/projects/stoliv-hillside-0.jpg",
-   "images/projects/stoliv-hillside-1.jpg",
-   "images/projects/stoliv-hillside-2.jpg",
-   "images/projects/stoliv-hillside-3.jpg",
-   "images/projects/stoliv-hillside-4.jpg",
-   "images/projects/stoliv-hillside-5.jpg"
-  ]
- },
- {
-  "title": "Pula",
-  "category": "Villas",
-  "city": "Croatia",
-  "slug": "pula",
-  "images": [
-   "images/projects/pula-0.jpg",
-   "images/projects/pula-1.jpg",
-   "images/projects/pula-2.jpg",
-   "images/projects/pula-3.jpg",
-   "images/projects/pula-4.jpg",
-   "images/projects/pula-5.jpg"
-  ]
- },
- {
-  "title": "Daylight House",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "daylight-house",
-  "images": [
-   "images/projects/daylight-house-0.jpg",
-   "images/projects/daylight-house-1.jpg",
-   "images/projects/daylight-house-2.jpg",
-   "images/projects/daylight-house-3.jpg",
-   "images/projects/daylight-house-4.jpg",
-   "images/projects/daylight-house-5.jpg"
-  ]
- },
- {
-  "title": "Rivijera",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "rivijera",
-  "images": [
-   "images/projects/rivijera-0.jpg",
-   "images/projects/rivijera-1.jpg",
-   "images/projects/rivijera-2.jpg",
-   "images/projects/rivijera-3.jpg",
-   "images/projects/rivijera-4.jpg",
-   "images/projects/rivijera-5.jpg"
-  ]
- },
- {
-  "title": "Seaside Agava",
-  "category": "Apartments",
-  "city": "Croatia",
-  "slug": "seaside-agava",
-  "images": [
-   "images/projects/seaside-agava-0.jpg",
-   "images/projects/seaside-agava-1.jpg",
-   "images/projects/seaside-agava-2.jpg",
-   "images/projects/seaside-agava-3.jpg",
-   "images/projects/seaside-agava-4.jpg",
-   "images/projects/seaside-agava-5.jpg"
-  ]
- },
- {
-  "title": "The Art Of Subtle Luxury",
-  "category": "Apartments",
-  "city": "Croatia",
-  "slug": "the-art-of-subtle-luxury",
-  "images": [
-   "images/projects/the-art-of-subtle-luxury-0.jpg",
-   "images/projects/the-art-of-subtle-luxury-1.jpg",
-   "images/projects/the-art-of-subtle-luxury-2.jpg",
-   "images/projects/the-art-of-subtle-luxury-3.jpg",
-   "images/projects/the-art-of-subtle-luxury-4.jpg",
-   "images/projects/the-art-of-subtle-luxury-5.jpg"
-  ]
- },
- {
-  "title": "Warm Minimalism",
-  "category": "Apartments",
-  "city": "Croatia",
-  "slug": "warm-minimalism",
-  "images": [
-   "images/projects/warm-minimalism-0.jpg",
-   "images/projects/warm-minimalism-1.jpg",
-   "images/projects/warm-minimalism-2.jpg",
-   "images/projects/warm-minimalism-3.jpg",
-   "images/projects/warm-minimalism-4.jpg",
-   "images/projects/warm-minimalism-5.jpg"
-  ]
- },
- {
-  "title": "Soul",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "soul",
-  "images": [
-   "images/projects/soul-0.jpg",
-   "images/projects/soul-1.jpg",
-   "images/projects/soul-2.jpg",
-   "images/projects/soul-3.jpg",
-   "images/projects/soul-4.jpg",
-   "images/projects/soul-5.jpg"
-  ]
- },
- {
-  "title": "Boutique Hotel Venturo",
-  "category": "Hotels",
-  "city": "Croatia",
-  "slug": "boutique-hotel-venturo",
-  "images": [
-   "images/projects/boutique-hotel-venturo-0.jpg",
-   "images/projects/boutique-hotel-venturo-1.jpg",
-   "images/projects/boutique-hotel-venturo-2.jpg",
-   "images/projects/boutique-hotel-venturo-3.jpg",
-   "images/projects/boutique-hotel-venturo-4.jpg",
-   "images/projects/boutique-hotel-venturo-5.jpg"
-  ]
- },
- {
-  "title": "Sky Duplex",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "sky-duplex",
-  "images": [
-   "images/projects/sky-duplex-0.jpg",
-   "images/projects/sky-duplex-1.jpg",
-   "images/projects/sky-duplex-2.jpg",
-   "images/projects/sky-duplex-3.jpg",
-   "images/projects/sky-duplex-4.jpg",
-   "images/projects/sky-duplex-5.jpg"
-  ]
- },
- {
-  "title": "Konoba",
-  "category": "Restaurants",
-  "city": "Croatia",
-  "slug": "konoba",
-  "images": [
-   "images/projects/konoba-0.jpg",
-   "images/projects/konoba-1.jpg",
-   "images/projects/konoba-2.jpg",
-   "images/projects/konoba-3.jpg",
-   "images/projects/konoba-4.jpg",
-   "images/projects/konoba-5.jpg"
-  ]
- },
- {
-  "title": "Rithmanova",
-  "category": "Apartments",
-  "city": "Croatia",
-  "slug": "rithmanova",
-  "images": [
-   "images/projects/rithmanova-0.jpg",
-   "images/projects/rithmanova-1.jpg",
-   "images/projects/rithmanova-2.jpg",
-   "images/projects/rithmanova-3.jpg",
-   "images/projects/rithmanova-4.jpg",
-   "images/projects/rithmanova-5.jpg"
-  ]
- },
- {
-  "title": "Shelemburg Pizzeria",
-  "category": "Restaurants",
-  "city": "Slovenia",
-  "slug": "shelemburg-pizzeria",
-  "images": [
-   "images/projects/shelemburg-pizzeria-0.jpg",
-   "images/projects/shelemburg-pizzeria-1.jpg",
-   "images/projects/shelemburg-pizzeria-2.jpg",
-   "images/projects/shelemburg-pizzeria-3.jpg",
-   "images/projects/shelemburg-pizzeria-4.jpg",
-   "images/projects/shelemburg-pizzeria-5.jpg"
-  ]
- },
- {
-  "title": "Dream Villa Lucan",
-  "category": "Villas",
-  "city": "Croatia",
-  "slug": "dream-villa-lucan",
-  "images": [
-   "images/projects/dream-villa-lucan-0.jpg",
-   "images/projects/dream-villa-lucan-1.jpg",
-   "images/projects/dream-villa-lucan-2.jpg",
-   "images/projects/dream-villa-lucan-3.jpg",
-   "images/projects/dream-villa-lucan-4.jpg",
-   "images/projects/dream-villa-lucan-5.jpg"
-  ]
- },
- {
-  "title": "New Sail Villa",
-  "category": "Villas",
-  "city": "Slovenia",
-  "slug": "new-sail-villa",
-  "images": [
-   "images/projects/new-sail-villa-0.jpg",
-   "images/projects/new-sail-villa-1.jpg",
-   "images/projects/new-sail-villa-2.jpg",
-   "images/projects/new-sail-villa-3.jpg",
-   "images/projects/new-sail-villa-4.jpg",
-   "images/projects/new-sail-villa-5.jpg"
-  ]
- },
- {
-  "title": "Shumadijski Kutak",
-  "category": "Villas",
-  "city": "Serbia",
-  "slug": "shumadijski-kutak",
-  "images": [
-   "images/projects/shumadijski-kutak-0.jpg",
-   "images/projects/shumadijski-kutak-1.jpg",
-   "images/projects/shumadijski-kutak-2.jpg",
-   "images/projects/shumadijski-kutak-3.jpg",
-   "images/projects/shumadijski-kutak-4.jpg",
-   "images/projects/shumadijski-kutak-5.jpg"
-  ]
- },
- {
-  "title": "Vienna Pearl",
-  "category": "Villas",
-  "city": "Austria",
-  "slug": "vienna-pearl",
-  "images": [
-   "images/projects/vienna-pearl-0.jpg",
-   "images/projects/vienna-pearl-1.jpg",
-   "images/projects/vienna-pearl-2.jpg",
-   "images/projects/vienna-pearl-3.jpg",
-   "images/projects/vienna-pearl-4.jpg",
-   "images/projects/vienna-pearl-5.jpg"
-  ]
- },
- {
-  "title": "Heart Of Shumadia",
-  "category": "Villas",
-  "city": "Serbia",
-  "slug": "heart-of-shumadia",
-  "images": [
-   "images/projects/heart-of-shumadia-0.jpg",
-   "images/projects/heart-of-shumadia-1.jpg",
-   "images/projects/heart-of-shumadia-2.jpg",
-   "images/projects/heart-of-shumadia-3.jpg",
-   "images/projects/heart-of-shumadia-4.jpg",
-   "images/projects/heart-of-shumadia-5.jpg"
-  ]
- },
- {
-  "title": "Zaton",
-  "category": "Apartments",
-  "city": "Croatia",
-  "slug": "zaton",
-  "images": [
-   "images/projects/zaton-0.jpg",
-   "images/projects/zaton-1.jpg",
-   "images/projects/zaton-2.jpg",
-   "images/projects/zaton-3.jpg",
-   "images/projects/zaton-4.jpg",
-   "images/projects/zaton-5.jpg"
-  ]
- },
- {
-  "title": "Mimet",
-  "category": "Hotels",
-  "city": "Miami",
-  "slug": "mimet",
-  "images": [
-   "images/projects/mimet-0.jpg",
-   "images/projects/mimet-1.jpg",
-   "images/projects/mimet-2.jpg",
-   "images/projects/mimet-3.jpg",
-   "images/projects/mimet-4.jpg",
-   "images/projects/mimet-5.jpg"
-  ]
- },
- {
-  "title": "Davos Chalet",
-  "category": "Apartments",
-  "city": "Switzerland",
-  "slug": "davos-chalet",
-  "images": [
-   "images/projects/davos-chalet-0.jpg",
-   "images/projects/davos-chalet-1.jpg",
-   "images/projects/davos-chalet-2.jpg",
-   "images/projects/davos-chalet-3.jpg",
-   "images/projects/davos-chalet-4.jpg",
-   "images/projects/davos-chalet-5.jpg"
-  ]
- },
- {
-  "title": "Belgrade Hram Residence",
-  "category": "Apartments",
-  "city": "Serbia",
-  "slug": "belgrade-hram-residence",
-  "images": [
-   "images/projects/belgrade-hram-residence-0.jpg",
-   "images/projects/belgrade-hram-residence-1.jpg",
-   "images/projects/belgrade-hram-residence-2.jpg",
-   "images/projects/belgrade-hram-residence-3.jpg",
-   "images/projects/belgrade-hram-residence-4.jpg",
-   "images/projects/belgrade-hram-residence-5.jpg"
-  ]
- }
+  {
+    "title": "Mimet",
+    "category": "Hotels",
+    "city": "Miami",
+    "slug": "mimet",
+    "images": [
+      "images/projects/mimet-0.jpg",
+      "images/projects/mimet-1.jpg",
+      "images/projects/mimet-2.jpg",
+      "images/projects/mimet-3.jpg",
+      "images/projects/mimet-4.jpg",
+      "images/projects/mimet-5.jpg"
+    ]
+  },
+  {
+    "title": "Belmondo Penthouse",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "belmondo-penthouse",
+    "images": [
+      "images/projects/belmondo-penthouse-0.jpg",
+      "images/projects/belmondo-penthouse-1.jpg",
+      "images/projects/belmondo-penthouse-2.jpg",
+      "images/projects/belmondo-penthouse-3.jpg",
+      "images/projects/belmondo-penthouse-4.jpg",
+      "images/projects/belmondo-penthouse-5.jpg"
+    ]
+  },
+  {
+    "title": "Belmondo House",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "belmondo-house",
+    "images": [
+      "images/projects/belmondo-house-0.jpg",
+      "images/projects/belmondo-house-1.jpg",
+      "images/projects/belmondo-house-2.jpg",
+      "images/projects/belmondo-house-3.jpg",
+      "images/projects/belmondo-house-4.jpg",
+      "images/projects/belmondo-house-5.jpg"
+    ]
+  },
+  {
+    "title": "Round",
+    "category": "Villas",
+    "city": "Slovenia",
+    "slug": "round",
+    "images": [
+      "images/projects/round-0.jpg",
+      "images/projects/round-1.jpg",
+      "images/projects/round-2.jpg",
+      "images/projects/round-3.jpg",
+      "images/projects/round-4.jpg",
+      "images/projects/round-5.jpg"
+    ]
+  },
+  {
+    "title": "Stoliv Hillside",
+    "category": "Villas",
+    "city": "Montenegro",
+    "slug": "stoliv-hillside",
+    "images": [
+      "images/projects/stoliv-hillside-0.jpg",
+      "images/projects/stoliv-hillside-1.jpg",
+      "images/projects/stoliv-hillside-2.jpg",
+      "images/projects/stoliv-hillside-3.jpg",
+      "images/projects/stoliv-hillside-4.jpg",
+      "images/projects/stoliv-hillside-5.jpg"
+    ]
+  },
+  {
+    "title": "Pula",
+    "category": "Villas",
+    "city": "Croatia",
+    "slug": "pula",
+    "images": [
+      "images/projects/pula-0.jpg",
+      "images/projects/pula-1.jpg",
+      "images/projects/pula-2.jpg",
+      "images/projects/pula-3.jpg",
+      "images/projects/pula-4.jpg",
+      "images/projects/pula-5.jpg"
+    ]
+  },
+  {
+    "title": "Daylight House",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "daylight-house",
+    "images": [
+      "images/projects/daylight-house-0.jpg",
+      "images/projects/daylight-house-1.jpg",
+      "images/projects/daylight-house-2.jpg",
+      "images/projects/daylight-house-3.jpg",
+      "images/projects/daylight-house-4.jpg",
+      "images/projects/daylight-house-5.jpg"
+    ]
+  },
+  {
+    "title": "Rivijera",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "rivijera",
+    "images": [
+      "images/projects/rivijera-0.jpg",
+      "images/projects/rivijera-1.jpg",
+      "images/projects/rivijera-2.jpg",
+      "images/projects/rivijera-3.jpg",
+      "images/projects/rivijera-4.jpg",
+      "images/projects/rivijera-5.jpg"
+    ]
+  },
+  {
+    "title": "Seaside Agava",
+    "category": "Apartments",
+    "city": "Croatia",
+    "slug": "seaside-agava",
+    "images": [
+      "images/projects/seaside-agava-0.jpg",
+      "images/projects/seaside-agava-1.jpg",
+      "images/projects/seaside-agava-2.jpg",
+      "images/projects/seaside-agava-3.jpg",
+      "images/projects/seaside-agava-4.jpg",
+      "images/projects/seaside-agava-5.jpg"
+    ]
+  },
+  {
+    "title": "The Art Of Subtle Luxury",
+    "category": "Apartments",
+    "city": "Croatia",
+    "slug": "the-art-of-subtle-luxury",
+    "images": [
+      "images/projects/the-art-of-subtle-luxury-0.jpg",
+      "images/projects/the-art-of-subtle-luxury-1.jpg",
+      "images/projects/the-art-of-subtle-luxury-2.jpg",
+      "images/projects/the-art-of-subtle-luxury-3.jpg",
+      "images/projects/the-art-of-subtle-luxury-4.jpg",
+      "images/projects/the-art-of-subtle-luxury-5.jpg"
+    ]
+  },
+  {
+    "title": "Warm Minimalism",
+    "category": "Apartments",
+    "city": "Croatia",
+    "slug": "warm-minimalism",
+    "images": [
+      "images/projects/warm-minimalism-0.jpg",
+      "images/projects/warm-minimalism-1.jpg",
+      "images/projects/warm-minimalism-2.jpg",
+      "images/projects/warm-minimalism-3.jpg",
+      "images/projects/warm-minimalism-4.jpg",
+      "images/projects/warm-minimalism-5.jpg"
+    ]
+  },
+  {
+    "title": "Soul",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "soul",
+    "images": [
+      "images/projects/soul-0.jpg",
+      "images/projects/soul-1.jpg",
+      "images/projects/soul-2.jpg",
+      "images/projects/soul-3.jpg",
+      "images/projects/soul-4.jpg",
+      "images/projects/soul-5.jpg"
+    ]
+  },
+  {
+    "title": "Boutique Hotel Venturo",
+    "category": "Hotels",
+    "city": "Croatia",
+    "slug": "boutique-hotel-venturo",
+    "images": [
+      "images/projects/boutique-hotel-venturo-0.jpg",
+      "images/projects/boutique-hotel-venturo-1.jpg",
+      "images/projects/boutique-hotel-venturo-2.jpg",
+      "images/projects/boutique-hotel-venturo-3.jpg",
+      "images/projects/boutique-hotel-venturo-4.jpg",
+      "images/projects/boutique-hotel-venturo-5.jpg"
+    ]
+  },
+  {
+    "title": "Sky Duplex",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "sky-duplex",
+    "images": [
+      "images/projects/sky-duplex-0.jpg",
+      "images/projects/sky-duplex-1.jpg",
+      "images/projects/sky-duplex-2.jpg",
+      "images/projects/sky-duplex-3.jpg",
+      "images/projects/sky-duplex-4.jpg",
+      "images/projects/sky-duplex-5.jpg"
+    ]
+  },
+  {
+    "title": "Konoba",
+    "category": "Restaurants",
+    "city": "Croatia",
+    "slug": "konoba",
+    "images": [
+      "images/projects/konoba-0.jpg",
+      "images/projects/konoba-1.jpg",
+      "images/projects/konoba-2.jpg",
+      "images/projects/konoba-3.jpg",
+      "images/projects/konoba-4.jpg",
+      "images/projects/konoba-5.jpg"
+    ]
+  },
+  {
+    "title": "Rithmanova",
+    "category": "Apartments",
+    "city": "Croatia",
+    "slug": "rithmanova",
+    "images": [
+      "images/projects/rithmanova-0.jpg",
+      "images/projects/rithmanova-1.jpg",
+      "images/projects/rithmanova-2.jpg",
+      "images/projects/rithmanova-3.jpg",
+      "images/projects/rithmanova-4.jpg",
+      "images/projects/rithmanova-5.jpg"
+    ]
+  },
+  {
+    "title": "Shelemburg Pizzeria",
+    "category": "Restaurants",
+    "city": "Slovenia",
+    "slug": "shelemburg-pizzeria",
+    "images": [
+      "images/projects/shelemburg-pizzeria-0.jpg",
+      "images/projects/shelemburg-pizzeria-1.jpg",
+      "images/projects/shelemburg-pizzeria-2.jpg",
+      "images/projects/shelemburg-pizzeria-3.jpg",
+      "images/projects/shelemburg-pizzeria-4.jpg",
+      "images/projects/shelemburg-pizzeria-5.jpg"
+    ]
+  },
+  {
+    "title": "Dream Villa Lucan",
+    "category": "Villas",
+    "city": "Croatia",
+    "slug": "dream-villa-lucan",
+    "images": [
+      "images/projects/dream-villa-lucan-0.jpg",
+      "images/projects/dream-villa-lucan-1.jpg",
+      "images/projects/dream-villa-lucan-2.jpg",
+      "images/projects/dream-villa-lucan-3.jpg",
+      "images/projects/dream-villa-lucan-4.jpg",
+      "images/projects/dream-villa-lucan-5.jpg"
+    ]
+  },
+  {
+    "title": "New Sail Villa",
+    "category": "Villas",
+    "city": "Slovenia",
+    "slug": "new-sail-villa",
+    "images": [
+      "images/projects/new-sail-villa-0.jpg",
+      "images/projects/new-sail-villa-1.jpg",
+      "images/projects/new-sail-villa-2.jpg",
+      "images/projects/new-sail-villa-3.jpg",
+      "images/projects/new-sail-villa-4.jpg",
+      "images/projects/new-sail-villa-5.jpg"
+    ]
+  },
+  {
+    "title": "Shumadijski Kutak",
+    "category": "Villas",
+    "city": "Serbia",
+    "slug": "shumadijski-kutak",
+    "images": [
+      "images/projects/shumadijski-kutak-0.jpg",
+      "images/projects/shumadijski-kutak-1.jpg",
+      "images/projects/shumadijski-kutak-2.jpg",
+      "images/projects/shumadijski-kutak-3.jpg",
+      "images/projects/shumadijski-kutak-4.jpg",
+      "images/projects/shumadijski-kutak-5.jpg"
+    ]
+  },
+  {
+    "title": "Vienna Pearl",
+    "category": "Villas",
+    "city": "Austria",
+    "slug": "vienna-pearl",
+    "images": [
+      "images/projects/vienna-pearl-0.jpg",
+      "images/projects/vienna-pearl-1.jpg",
+      "images/projects/vienna-pearl-2.jpg",
+      "images/projects/vienna-pearl-3.jpg",
+      "images/projects/vienna-pearl-4.jpg",
+      "images/projects/vienna-pearl-5.jpg"
+    ]
+  },
+  {
+    "title": "Heart Of Shumadia",
+    "category": "Villas",
+    "city": "Serbia",
+    "slug": "heart-of-shumadia",
+    "images": [
+      "images/projects/heart-of-shumadia-0.jpg",
+      "images/projects/heart-of-shumadia-1.jpg",
+      "images/projects/heart-of-shumadia-2.jpg",
+      "images/projects/heart-of-shumadia-3.jpg",
+      "images/projects/heart-of-shumadia-4.jpg",
+      "images/projects/heart-of-shumadia-5.jpg"
+    ]
+  },
+  {
+    "title": "Zaton",
+    "category": "Apartments",
+    "city": "Croatia",
+    "slug": "zaton",
+    "images": [
+      "images/projects/zaton-0.jpg",
+      "images/projects/zaton-1.jpg",
+      "images/projects/zaton-2.jpg",
+      "images/projects/zaton-3.jpg",
+      "images/projects/zaton-4.jpg",
+      "images/projects/zaton-5.jpg"
+    ]
+  },
+  {
+    "title": "Davos Chalet",
+    "category": "Apartments",
+    "city": "Switzerland",
+    "slug": "davos-chalet",
+    "images": [
+      "images/projects/davos-chalet-0.jpg",
+      "images/projects/davos-chalet-1.jpg",
+      "images/projects/davos-chalet-2.jpg",
+      "images/projects/davos-chalet-3.jpg",
+      "images/projects/davos-chalet-4.jpg",
+      "images/projects/davos-chalet-5.jpg"
+    ]
+  },
+  {
+    "title": "Belgrade Hram Residence",
+    "category": "Apartments",
+    "city": "Serbia",
+    "slug": "belgrade-hram-residence",
+    "images": [
+      "images/projects/belgrade-hram-residence-0.jpg",
+      "images/projects/belgrade-hram-residence-1.jpg",
+      "images/projects/belgrade-hram-residence-2.jpg",
+      "images/projects/belgrade-hram-residence-3.jpg",
+      "images/projects/belgrade-hram-residence-4.jpg",
+      "images/projects/belgrade-hram-residence-5.jpg"
+    ]
+  }
 ]
