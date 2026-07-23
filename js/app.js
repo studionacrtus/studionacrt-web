@@ -52,17 +52,18 @@ function card(p){
 
 // Home featured (first 6)
 async function renderFeatured(){
-  await loadProjects();
   const el = document.getElementById('featured-grid');
+  if (!el) return; // only fetch on pages that actually have the grid
+  await loadProjects(); // also needed so openProject() lightbox has data
   // Progressive enhancement: skip re-render if cards are already pre-rendered server-side.
-  if (el && el.children.length === 0){ el.innerHTML = PROJECTS.slice(0,6).map(card).join(''); observeReveals(); }
+  if (el.children.length === 0){ el.innerHTML = PROJECTS.slice(0,6).map(card).join(''); observeReveals(); }
 }
 
 // Projects page (all + filters)
 async function renderProjects(){
-  await loadProjects();
   const el = document.getElementById('all-grid');
   if (!el) return;
+  await loadProjects();
   // Progressive enhancement: if cards already pre-rendered server-side, keep them (just ensure reveals run).
   if (el.children.length > 0){ observeReveals(); return; }
   const cats = ['All', ...Array.from(new Set(PROJECTS.map(p=>p.category).filter(Boolean)))];
@@ -165,9 +166,9 @@ function showMoreProjects(){
     if (window.observeReveals) observeReveals();
     // After revealing the second batch, turn the button into a link to all projects
     btn.textContent = 'View All Projects';
-    btn.onclick = function(){ window.location.href = '/projects'; };
+    btn.onclick = function(){ window.location.href = 'projects.html'; };
   } else {
-    window.location.href = '/projects';
+    window.location.href = 'projects.html';
   }
 }
 

@@ -3,6 +3,79 @@
 [build]
   publish = "."
 
+# Canonicalize: force .html requests to the clean pretty URL (prevents duplicate indexing).
+# force=true is required because the .html files exist as static assets.
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/projects.html"
+  to = "/projects"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/services.html"
+  to = "/services"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/services/residential.html"
+  to = "/services/residential"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/services/condo-penthouse.html"
+  to = "/services/condo-penthouse"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/services/multifamily-commercial.html"
+  to = "/services/multifamily-commercial"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/services/hospitality.html"
+  to = "/services/hospitality"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/services/3d-visualization.html"
+  to = "/services/3d-visualization"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/insights/index.html"
+  to = "/insights"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/insights/miami-luxury-condo-interior-design-process.html"
+  to = "/insights/miami-luxury-condo-interior-design-process"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/insights/planning-a-south-florida-condo-renovation.html"
+  to = "/insights/planning-a-south-florida-condo-renovation"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/insights/how-3d-visualization-reduces-decision-risk.html"
+  to = "/insights/how-3d-visualization-reduces-decision-risk"
+  status = 301
+  force = true
+
 # Pretty-URL redirects so /projects, /about, /contact, /services resolve to .html
 [[redirects]]
   from = "/projects"
