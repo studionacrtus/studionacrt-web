@@ -130,9 +130,9 @@ function initContactForm(){
     }).then(function(res){
       if (!res.ok) throw new Error('Request failed');
       form.reset();
-      setStatus('success', 'Thank you. Your inquiry has been sent and we will be in touch shortly.');
+      setStatus('success', 'Thank You. Your Inquiry Has Been Sent And We Will Be In Touch Shortly.');
     }).catch(function(){
-      setStatus('error', 'Something went wrong. Please email info@studionacrt.us and we will respond directly.');
+      setStatus('error', 'Something Went Wrong. Please Email info@studionacrt.us And We Will Respond Directly.');
     }).finally(function(){
       if (btn){ btn.disabled = false; btn.textContent = original; }
     });
