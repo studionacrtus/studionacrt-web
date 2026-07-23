@@ -27,8 +27,11 @@ working reference, not a guarantee of rankings — see the note at the end.
      (`/services/3d-visualization`).
   5. Selected commercial interiors only where aligned with luxury positioning (folded into
      `/services/multifamily-commercial`).
-- **Service area (not a physical NAP):** Miami and South Florida. No U.S. street address or phone
-  number is published because none is verified. Email (info@studionacrt.us) is the contact.
+- **Verified NAP (shipped):** Studio NACRT US, 740 W 26th St, Hialeah, FL 33010; phone 305-301-1046;
+  info@studionacrt.us. Carl confirmed and verified this NAP and that clients may visit the address.
+  It appears as visible, consistent text in the footer sitewide and on Contact, and drives the
+  `LocalBusiness` schema (see §3). Service area remains Miami and South Florida. No business hours were
+  provided, so none are stated or in schema.
 - **Truthful lineage framing:** the studio works with one shared international design team; the body of
   work shown was completed by that team, with actual locations in Serbia, Croatia, Slovenia, Montenegro,
   Austria, and Switzerland identified only where verified. Copy does not advertise the U.S. entity as
@@ -58,18 +61,20 @@ working reference, not a guarantee of rankings — see the note at the end.
 
 Implemented (JSON-LD, matching visible text only):
 
-- **Organization** (`/#organization`) on Home and About — name, alternateName, areaServed (cities +
-  South Florida + Florida), knowsAbout, email, `sameAs` limited to the one verified profile
-  (Instagram), and `parentOrganization` (Studio NACRT, 2014, Belgrade).
+- **LocalBusiness** (`/#localbusiness`) on Home and About — name, alternateName, url, logo, image,
+  email, `telephone` (`+1-305-301-1046`), `address` (`PostalAddress`: 740 W 26th St, Hialeah, FL
+  33010, US), areaServed (cities + South Florida + Florida), `sameAs` limited to the one verified
+  profile (Instagram), and `parentOrganization` (Studio NACRT, 2014, Belgrade). This replaced the
+  earlier `Organization`-only node once Carl verified the NAP.
 - **WebSite** (`/#website`) on Home.
-- **Service** on each of the five service pages, `provider` referencing `/#organization`.
+- **Service** on each of the five service pages, `provider` referencing `/#localbusiness`.
 - **BreadcrumbList** on every non-home page.
 - **FAQPage** on Home and each service page — every Q&A also appears as visible `<details>` text.
 - **Article** + **BreadcrumbList** on each insight article; **CollectionPage** on the insights hub.
 - **AboutPage** on the About page.
 
-Deliberately **removed**: `ProfessionalService` / `LocalBusiness` — these imply a verifiable
-physical location, which we do not have. See blockers.
+Deliberately **excluded** (no verified data): `geo` lat/lng, `openingHoursSpecification`/hours,
+`priceRange`, `aggregateRating`, and `review`. None are added until verified. See blockers.
 
 ## 4. Content & accuracy rules (applied)
 
@@ -114,20 +119,17 @@ physical location, which we do not have. See blockers.
 
 ## 7. Blockers — require the client before shipping
 
-1. **Verified NAP → GBP / LocalBusiness upgrade trigger.** The site is built to accept this with a small,
-   well-defined change once a real, verified U.S. business name + street address + phone exist. The exact
-   upgrade, to apply *only after* NAP is verified:
-   - Add a JSON-LD `LocalBusiness` / `InteriorDesignBusiness` node (or extend `/#organization`) on Home,
-     About, and Contact with `name`, `address` (`PostalAddress`: street, city `Miami`, region `FL`,
-     postal code, `US`), `telephone` (E.164), `geo` (lat/lng), `openingHoursSpecification`, `image`, and
-     `url` = `https://studionacrt.us`.
-   - Add the same NAP as **visible** text in the footer and on Contact (schema must mirror visible text).
-   - Create the Google Business Profile, then add its URL to the Organization `sameAs` array.
-   Until every element is verified, add **no** placeholder address, phone, geo, or hours — the current
-   `Organization`-only + service-area model stays as-is. `ProfessionalService`/`LocalBusiness` remain
-   deliberately absent until this trigger fires.
-2. **Google Business Profile URL** — needed for local pack visibility and as a `sameAs` (part of the
-   trigger above).
+1. **Verified NAP → LocalBusiness — RESOLVED (shipped).** Carl verified the U.S. business name, street
+   address, and phone, and confirmed clients may visit. The `LocalBusiness` node (`/#localbusiness`) is
+   now live on Home and About with `name`, `address` (`PostalAddress`: 740 W 26th St, Hialeah, FL 33010,
+   US), `telephone` (`+1-305-301-1046`), `email`, `logo`, `image`, `areaServed`, `parentOrganization`,
+   and verified `sameAs`; the five service pages' `provider` and the insight articles' `author`/
+   `publisher` reference `/#localbusiness`. The same NAP is visible in the footer sitewide and on Contact
+   (schema mirrors visible text). Still deliberately **absent** until separately verified: `geo` lat/lng,
+   `openingHoursSpecification`/hours, `priceRange`, `aggregateRating`, `review`.
+2. **Google Business Profile URL — the next `sameAs` trigger.** Still outstanding. Once the GBP is
+   created and its URL confirmed, add that URL to the `LocalBusiness` `sameAs` array (and enable GBP-based
+   local-pack measurement in §8). This is the one remaining local-SEO trigger now that NAP is resolved.
 3. **Official social/profile URLs** — confirm the correct Instagram handle and any LinkedIn/Houzz/
    Pinterest profiles before adding them to `sameAs`.
 4. **U.S. project proof** — any verified U.S. project (location, name, photos with permission) can seed a
