@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="images/hero-coconut-grove.webp" fetchpriority="high">
 <link rel="stylesheet" href="css/style.css">
 <link rel="canonical" href="https://studionacrt.us/">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -68,7 +69,8 @@
   "3D Architectural Visualization"
  ],
  "sameAs": [
-  "https://instagram.com/studionacrt.us"
+  "https://www.instagram.com/studionacrt.us/",
+  "https://www.linkedin.com/company/studio-nacrt-us/"
  ],
  "parentOrganization": {
   "@type": "Organization",
@@ -111,26 +113,27 @@
 </header>
 
 <section class="hero">
-  <div class="hero-video">
-    <video src="videos/hero1.mp4" autoplay muted loop playsinline preload="metadata" poster="images/hero-poster.webp"></video>
+  <div class="hero-media">
+    <img class="hero-img" src="images/hero-coconut-grove.webp" alt="Coconut Grove Residence Concept Study interior by Studio NACRT US" fetchpriority="high" width="1600" height="900">
   </div>
   <div class="hero-overlay"></div>
+  <span class="hero-credit">Coconut Grove Residence Concept Study</span>
   <div class="hero-content">
     <p class="hero-brand">STUDIO NACRT</p>
-    <h1>Miami Luxury Interior Design &amp; Photoreal 3D Visualization</h1>
-    <p class="hero-sub">Material-led interiors, visualized before they are built. One Studio NACRT team shapes stone, wood, concrete, glass, and light &mdash; using photoreal 3D to resolve decisions before execution &mdash; for luxury residences, condos and penthouses, multifamily, hospitality, and commercial spaces across Miami and South Florida.</p>
+    <h1>Luxury Interior Design &amp; Photoreal 3D Visualization</h1>
+    <p class="hero-sub">Material led interiors, visualized before they are built. Our Studio NACRT team shapes stone, wood, concrete, glass, and light, using photoreal 3D to resolve decisions before execution, for luxury residences, condos and penthouses, multifamily, hospitality, and commercial spaces. Miami based, serving clients across the United States.</p>
     <div class="hero-cta">
-      <a class="btn-primary" href="contact.html">Start a Project</a>
+      <a class="btn-primary" href="contact.html">Start A Project</a>
       <a class="btn-ghost" href="projects.html">View Our Work</a>
     </div>
   </div>
-  <div class="scroll-hint">Scroll to discover</div>
+  <div class="scroll-hint">Scroll To Discover</div>
 </section>
 
 <section class="intro">
   <div class="wrap reveal">
-    <p class="eyebrow">Luxury Interior Design &middot; Miami &amp; South Florida</p>
-    <p>Studio NACRT US designs spaces where nothing is decorative for its own sake. Working in stone, wood, concrete, glass, and light, we carry a single, disciplined design language from concept through documentation and on-site supervision &mdash; with photoreal 3D visualization on every project so you can make confident decisions before anything is built.</p>
+    <p class="eyebrow">Luxury Interior Design &middot; Miami Based</p>
+    <p>Studio NACRT US designs spaces where nothing is decorative for its own sake. Working in stone, wood, concrete, glass, and light, we carry a single, disciplined design language from concept through documentation and on site supervision, with photoreal 3D visualization on every project so you can make confident decisions before anything is built.</p>
   </div>
 </section>
 
@@ -140,6 +143,7 @@
     <a href='projects.html'>View all projects</a>
   </div>
   <div class="grid" id="featured-grid">
+<div class="card" data-cat="Residences" onclick="openProject('coconut-grove-residence')"><img src="images/projects/coconut-grove-residence-0.jpg" alt="Coconut Grove Residence Concept Study, speculative luxury interior design study by Studio NACRT US" loading="eager" width="600" height="800"><div class="card-info"><h3>Coconut Grove Residence Concept Study</h3><span>Speculative Study &middot; Coconut Grove, Florida</span></div></div>
 <div class="card" data-cat="Hotels" onclick="openProject('mimet')"><img src="images/projects/mimet-0.jpg" alt="Mimet boutique hotel interior by Studio NACRT" loading="eager" width="600" height="800"><div class="card-info"><h3>Mimet</h3><span>Hotels</span></div></div>
 <div class="card" data-cat="Apartments" onclick="openProject('belmondo-penthouse')"><img src="images/projects/belmondo-penthouse-0.jpg" alt="Belmondo Penthouse - Apartments interior in Serbia by Studio NACRT" loading="eager" width="600" height="800"><div class="card-info"><h3>Belmondo Penthouse</h3><span>Apartments &middot; Serbia</span></div></div>
 <div class="card" data-cat="Apartments" onclick="openProject('belmondo-house')"><img src="images/projects/belmondo-house-0.jpg" alt="Belmondo House - Apartments interior in Serbia by Studio NACRT" loading="eager" width="600" height="800"><div class="card-info"><h3>Belmondo House</h3><span>Apartments &middot; Serbia</span></div></div>
@@ -169,10 +173,34 @@
   </div>
   <div class="home-svc-grid">
     <a class="home-svc reveal" href="services/residential.html"><h3>Luxury Residential</h3><p>Full interior design and furnishings for private homes, penthouses, and villas, with execution coordinated through completion.</p><span class="go">Explore</span></a>
-    <a class="home-svc reveal" href="services/condo-penthouse.html"><h3>Luxury Condo &amp; Penthouse</h3><p>High-rise condo and penthouse interiors and renovations for Miami and South Florida buildings.</p><span class="go">Explore</span></a>
-    <a class="home-svc reveal" href="services/multifamily-commercial.html"><h3>Multifamily &amp; Developer</h3><p>Developer packages for model units, amenities, and finish systems &mdash; plus selected commercial interiors aligned with luxury positioning.</p><span class="go">Explore</span></a>
-    <a class="home-svc reveal" href="services/hospitality.html"><h3>Hospitality &amp; Condo-Hotel</h3><p>Hotels, restaurants, and condo-hotel spaces where atmosphere is the product.</p><span class="go">Explore</span></a>
-    <a class="home-svc reveal" href="services/3d-visualization.html"><h3>3D Visualization</h3><p>Photoreal renderings for architects, developers, and brokers &mdash; standalone or as part of a full design engagement.</p><span class="go">Explore</span></a>
+    <a class="home-svc reveal" href="services/condo-penthouse.html"><h3>Luxury Condo &amp; Penthouse</h3><p>High rise condo and penthouse interiors and renovations for buildings across the country.</p><span class="go">Explore</span></a>
+    <a class="home-svc reveal" href="services/multifamily-commercial.html"><h3>Multifamily &amp; Developer</h3><p>Developer packages for model units, amenities, and finish systems, plus selected commercial interiors aligned with luxury positioning.</p><span class="go">Explore</span></a>
+    <a class="home-svc reveal" href="services/hospitality.html"><h3>Hospitality &amp; Condo Hotel</h3><p>Hotels, restaurants, and condo hotel spaces where atmosphere is the product.</p><span class="go">Explore</span></a>
+    <a class="home-svc reveal" href="services/3d-visualization.html"><h3>3D Visualization</h3><p>Photoreal renderings for architects, developers, and brokers, standalone or as part of a full design engagement.</p><span class="go">Explore</span></a>
+  </div>
+</section>
+
+<section class="strip-band">
+  <div class="wrap"><p class="eyebrow reveal">Range Of Work</p></div>
+  <div class="pstrip reveal" aria-label="Selected interiors by Studio NACRT">
+    <div class="pstrip-track">
+      <button class="pstrip-item" onclick="openProject('seaside-agava')" aria-label="Open Seaside Agava"><img src="images/projects/seaside-agava-0.jpg" alt="Seaside Agava interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('warm-minimalism')" aria-label="Open Warm Minimalism"><img src="images/projects/warm-minimalism-0.jpg" alt="Warm Minimalism interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('soul')" aria-label="Open Soul"><img src="images/projects/soul-0.jpg" alt="Soul interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('sky-duplex')" aria-label="Open Sky Duplex"><img src="images/projects/sky-duplex-0.jpg" alt="Sky Duplex interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('rithmanova')" aria-label="Open Rithmanova"><img src="images/projects/rithmanova-0.jpg" alt="Rithmanova interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('dream-villa-lucan')" aria-label="Open Dream Villa Lucan"><img src="images/projects/dream-villa-lucan-0.jpg" alt="Dream Villa Lucan interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('shelemburg-pizzeria')" aria-label="Open Shelemburg Pizzeria"><img src="images/projects/shelemburg-pizzeria-0.jpg" alt="Shelemburg Pizzeria interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" onclick="openProject('boutique-hotel-venturo')" aria-label="Open Boutique Hotel Venturo"><img src="images/projects/boutique-hotel-venturo-0.jpg" alt="Boutique Hotel Venturo interior by Studio NACRT" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('seaside-agava')"><img src="images/projects/seaside-agava-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('warm-minimalism')"><img src="images/projects/warm-minimalism-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('soul')"><img src="images/projects/soul-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('sky-duplex')"><img src="images/projects/sky-duplex-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('rithmanova')"><img src="images/projects/rithmanova-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('dream-villa-lucan')"><img src="images/projects/dream-villa-lucan-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('shelemburg-pizzeria')"><img src="images/projects/shelemburg-pizzeria-0.jpg" alt="" loading="lazy"></button>
+      <button class="pstrip-item" aria-hidden="true" tabindex="-1" onclick="openProject('boutique-hotel-venturo')"><img src="images/projects/boutique-hotel-venturo-0.jpg" alt="" loading="lazy"></button>
+    </div>
   </div>
 </section>
 
@@ -186,11 +214,10 @@
 <section class="wrap faq">
   <div class="sec-head reveal" style="padding-bottom:20px"><h2>Frequently Asked Questions</h2></div>
   <div class="faq-list">
-    <details class="reveal"><summary>What does Studio NACRT US do?</summary><div class="faq-a"><p>Studio NACRT US is a luxury interior design firm serving Miami and South Florida. We design residential, condo and penthouse, multifamily, hospitality, and commercial interiors, and produce photoreal 3D visualization for every project.</p></div></details>
-    <details class="reveal"><summary>Where does NACRT US work?</summary><div class="faq-a"><p>We focus on Miami and South Florida, including Miami Beach, Brickell, Coral Gables, Coconut Grove, Bal Harbour, Sunny Isles, Fort Lauderdale, and Palm Beach. We also take on selected work beyond the region.</p></div></details>
-    <details class="reveal"><summary>How is NACRT US related to Studio NACRT in Belgrade?</summary><div class="faq-a"><p>NACRT US is the U.S. branch of Studio NACRT, an interior design studio founded in Belgrade in 2014. The same design team supports U.S. projects, so American clients work with an established studio rather than a brand-new practice.</p></div></details>
-    <details class="reveal"><summary>What makes NACRT's approach different?</summary><div class="faq-a"><p>Material-led minimalism. We build interiors from stone, wood, concrete, glass, and light rather than decoration, keep one team involved from concept through supervision, and visualize every project photoreal before it is built.</p></div></details>
-    <details class="reveal"><summary>How do I start a project?</summary><div class="faq-a"><p>Email <a href="mailto:info@studionacrt.us">info@studionacrt.us</a> or use our <a href="contact.html">contact form</a> with your space, location, and timeline. We respond to every serious inquiry.</p></div></details>
+    <details class="reveal"><summary>What Does Studio NACRT US Do?</summary><div class="faq-a"><p>Studio NACRT US is a luxury interior design firm that is Miami based and serves clients across the United States. We design residential, condo and penthouse, multifamily, hospitality, and commercial interiors, and produce photoreal 3D visualization for every project.</p></div></details>
+    <details class="reveal"><summary>Where Does Studio NACRT US Work?</summary><div class="faq-a"><p>Studio NACRT US is Miami based and serves clients across the United States. We work throughout the Miami area, including Miami Beach, Brickell, Coral Gables, Coconut Grove, Bal Harbour, Sunny Isles, Fort Lauderdale, and Palm Beach, and take on selected projects nationwide.</p></div></details>
+    <details class="reveal"><summary>What Makes Studio NACRT US Different?</summary><div class="faq-a"><p>Material led minimalism. We build interiors from stone, wood, concrete, glass, and light rather than decoration, keep one team involved from concept through supervision, and visualize every project photoreal before it is built.</p></div></details>
+    <details class="reveal"><summary>How Do I Start A Project?</summary><div class="faq-a"><p>Email <a href="mailto:info@studionacrt.us">info@studionacrt.us</a> or use our <a href="contact.html">contact form</a> with your space, location, and timeline. We respond to every serious inquiry.</p></div></details>
   </div>
 </section>
 <script type="application/ld+json">
@@ -198,11 +225,37 @@
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
-  { "@type": "Question", "name": "What does Studio NACRT US do?", "acceptedAnswer": { "@type": "Answer", "text": "Studio NACRT US is a luxury interior design firm serving Miami and South Florida. We design residential, condo and penthouse, multifamily, hospitality, and commercial interiors, and produce photoreal 3D visualization for every project." } },
-  { "@type": "Question", "name": "Where does NACRT US work?", "acceptedAnswer": { "@type": "Answer", "text": "We focus on Miami and South Florida, including Miami Beach, Brickell, Coral Gables, Coconut Grove, Bal Harbour, Sunny Isles, Fort Lauderdale, and Palm Beach. We also take on selected work beyond the region." } },
-  { "@type": "Question", "name": "How is NACRT US related to Studio NACRT in Belgrade?", "acceptedAnswer": { "@type": "Answer", "text": "NACRT US is the U.S. branch of Studio NACRT, an interior design studio founded in Belgrade in 2014. The same design team supports U.S. projects, so American clients work with an established studio rather than a brand-new practice." } },
-  { "@type": "Question", "name": "What makes NACRT's approach different?", "acceptedAnswer": { "@type": "Answer", "text": "Material-led minimalism. We build interiors from stone, wood, concrete, glass, and light rather than decoration, keep one team involved from concept through supervision, and visualize every project photoreal before it is built." } },
-  { "@type": "Question", "name": "How do I start a project?", "acceptedAnswer": { "@type": "Answer", "text": "Email info@studionacrt.us or use our contact form with your space, location, and timeline. We respond to every serious inquiry." } }
+  { "@type": "Question", "name": "What Does Studio NACRT US Do?", "acceptedAnswer": { "@type": "Answer", "text": "Studio NACRT US is a luxury interior design firm that is Miami based and serves clients across the United States. We design residential, condo and penthouse, multifamily, hospitality, and commercial interiors, and produce photoreal 3D visualization for every project." } },
+  { "@type": "Question", "name": "Where Does Studio NACRT US Work?", "acceptedAnswer": { "@type": "Answer", "text": "Studio NACRT US is Miami based and serves clients across the United States. We work throughout the Miami area, including Miami Beach, Brickell, Coral Gables, Coconut Grove, Bal Harbour, Sunny Isles, Fort Lauderdale, and Palm Beach, and take on selected projects nationwide." } },
+  { "@type": "Question", "name": "What Makes Studio NACRT US Different?", "acceptedAnswer": { "@type": "Answer", "text": "Material-led minimalism. We build interiors from stone, wood, concrete, glass, and light rather than decoration, keep one team involved from concept through supervision, and visualize every project photoreal before it is built." } },
+  { "@type": "Question", "name": "How Do I Start A Project?", "acceptedAnswer": { "@type": "Answer", "text": "Email info@studionacrt.us or use our contact form with your space, location, and timeline. We respond to every serious inquiry." } }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "CreativeWork",
+ "@id": "https://studionacrt.us/#coconut-grove-residence-concept-study",
+ "name": "Coconut Grove Residence Concept Study",
+ "creativeWorkStatus": "Speculative design study, not built",
+ "abstract": "A speculative luxury interior design concept study for a residence in Coconut Grove, Florida. Not a commissioned, constructed, or completed project.",
+ "genre": "Interior Design Concept Study",
+ "locationCreated": { "@type": "Place", "name": "Coconut Grove, Florida, United States" },
+ "creator": { "@id": "https://studionacrt.us/#localbusiness" },
+ "author": { "@id": "https://studionacrt.us/#localbusiness" },
+ "image": "https://studionacrt.us/images/hero-coconut-grove.webp",
+ "isPartOf": { "@id": "https://studionacrt.us/#website" }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://studionacrt.us/" },
+  { "@type": "ListItem", "position": 2, "name": "Projects", "item": "https://studionacrt.us/projects" },
+  { "@type": "ListItem", "position": 3, "name": "Coconut Grove Residence Concept Study", "item": "https://studionacrt.us/projects" }
  ]
 }
 </script>
@@ -224,11 +277,12 @@
         <a href="mailto:info@studionacrt.us">info@studionacrt.us</a>
         <a href="tel:+13053011046">305-301-1046</a>
         <address><a href="https://www.google.com/maps/search/?api=1&amp;query=740+W+26th+St,+Hialeah,+FL+33010" target="_blank" rel="noopener">740 W 26th St, Hialeah, FL 33010</a></address>
-        <p>Serving Miami &amp; South Florida</p>
+        <p>Miami Based, Serving Clients Across The United States</p>
       </div>
       <div class="foot-col">
         <h4>Follow</h4>
-        <a href="https://instagram.com/studionacrt.us" target="_blank" rel="noopener">@studionacrt.us</a>
+        <a class="soc" href="https://www.instagram.com/studionacrt.us/" target="_blank" rel="noopener" aria-label="Studio NACRT US On Instagram"><svg class="soc-ic" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 3.05A6.75 6.75 0 1 0 18.75 12 6.76 6.76 0 0 0 12 5.25Zm0 11.13A4.38 4.38 0 1 1 16.38 12 4.38 4.38 0 0 1 12 16.38Zm6.96-11.4a1.58 1.58 0 1 1-1.57-1.58 1.58 1.58 0 0 1 1.57 1.58Z"/></svg><span>@studionacrt.us</span></a>
+        <a class="soc" href="https://www.linkedin.com/company/studio-nacrt-us/" target="_blank" rel="noopener" aria-label="Studio NACRT US On LinkedIn"><svg class="soc-ic" viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05a3.75 3.75 0 0 1 3.38-1.86c3.61 0 4.28 2.38 4.28 5.47v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14Zm1.78 13.02H3.55V9h3.57v11.45ZM22.22 0H1.77A1.75 1.75 0 0 0 0 1.73v20.54A1.75 1.75 0 0 0 1.77 24h20.45A1.76 1.76 0 0 0 24 22.27V1.73A1.76 1.76 0 0 0 22.22 0Z"/></svg><span>Studio NACRT US</span></a>
       </div>
     </div>
     <div class="foot-bottom">

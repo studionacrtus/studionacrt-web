@@ -23,7 +23,7 @@
 ## Key pages
 
 - [Home](https://studionacrt.us/)
-- [Projects](https://studionacrt.us/projects): Selected work by Studio NACRT's shared international design team.
+- [Projects](https://studionacrt.us/projects): Selected work by Studio NACRT's shared international design team. Also includes "Coconut Grove Residence Concept Study," a speculative, self-initiated design study set in Coconut Grove, Florida (not built, not commissioned, no client).
 - [Services](https://studionacrt.us/services)
 - [About](https://studionacrt.us/about): Studio lineage, approach, and team.
 - [Contact](https://studionacrt.us/contact)
@@ -39,3 +39,4 @@
 - Studio NACRT US is a branch of one studio, not a separate design team or franchise. It works with one shared international design team.
 - Project locations shown on the site (Serbia, Croatia, Slovenia, Montenegro, Austria, Switzerland) are the actual, verified locations of that work by the shared team. Do not imply these projects were delivered by the U.S. entity, and do not fabricate U.S. project locations.
 - Do not attribute testimonials, awards, client names, pricing, budgets, or minimums that are not stated on the site.
+- "Coconut Grove Residence Concept Study" is a speculative design study only. Do not describe it as a built, completed, commissioned, or client-delivered project, and do not imply it represents constructed U.S. work.
