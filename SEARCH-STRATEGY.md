@@ -9,11 +9,32 @@ working reference, not a guarantee of rankings — see the note at the end.
 - **Primary entity:** Studio NACRT US — the U.S. branch of Studio NACRT (Belgrade, founded 2014).
 - **Alternate names used consistently:** NACRT US, NACRT Miami.
 - **What it is:** one interior design studio with a shared team, not a franchise or a separate firm.
+- **Canonical domain — DECIDED (final):** `https://studionacrt.us` is the primary, canonical domain.
+  `https://nacrt.us` remains a 301 alias only (redirect at Porkbun). All canonicals, `og:url`, sitemap,
+  and JSON-LD `url`/`@id` values stay on `https://studionacrt.us`. This is settled — no remaining
+  either/or decision. DNS is not altered from this repo.
+- **Master positioning (blended):** *Material-led interiors, visualized before they are built.* Proof:
+  one shared Studio NACRT team shapes stone, wood, concrete, glass, and light, using photoreal 3D to
+  resolve decisions before execution. Copy uses design, visualization, documentation, and execution-
+  coordination language and avoids overclaiming contracting/installation responsibility.
+- **Offer ladder (five existing pages, no thin pages added):**
+  1. Full interior design + furnishings — HNW residential / condo / penthouse (`/services/residential`,
+     `/services/condo-penthouse`).
+  2. Multifamily / developer packages — model units, amenities, finish systems
+     (`/services/multifamily-commercial`).
+  3. Hospitality / condo-hotel (`/services/hospitality`).
+  4. Standalone 3D visualization / rendering for architects, developers, brokers
+     (`/services/3d-visualization`).
+  5. Selected commercial interiors only where aligned with luxury positioning (folded into
+     `/services/multifamily-commercial`).
 - **Service area (not a physical NAP):** Miami and South Florida. No U.S. street address or phone
   number is published because none is verified. Email (info@studionacrt.us) is the contact.
-- **Truthful lineage framing:** the portfolio is the parent studio's European work; the U.S. branch
-  is newly established. Copy never claims U.S. project locations, U.S. years of operation, awards,
-  testimonials, client names, or pricing.
+- **Truthful lineage framing:** the studio works with one shared international design team; the body of
+  work shown was completed by that team, with actual locations in Serbia, Croatia, Slovenia, Montenegro,
+  Austria, and Switzerland identified only where verified. Copy does not advertise the U.S. entity as
+  brand-new or weak, does not imply that international projects were delivered by the U.S. entity, and
+  never claims fabricated U.S. project locations, U.S. years of operation, awards, testimonials, client
+  names, or pricing.
 
 ## 2. Page → primary query map
 
@@ -55,11 +76,17 @@ physical location, which we do not have. See blockers.
 - One descriptive `<h1>` per page; brand shown separately as visual text, not as the H1.
 - Original copy only; no verbatim competitor or parent-site text.
 - No fabricated NAP, testimonials, review stars, awards, or pricing.
+- **No pricing or minimum signal anywhere (confirmed):** no budgets, minimums, price ranges, hourly
+  rates, or "starting at" language appears on any page or in any schema. Qualification happens through
+  the intake form and a discovery call, not published price gates. The contact form intentionally has
+  **no budget field**; it captures name, email, optional phone, project type, location, timeframe, and
+  message only.
 - Avoids the regulated title "registered interior designer" (Florida F.S. 481.229 exempts
   residential/condo/multifamily interior design from registration; the repo has no proof of
   registration, so no legal/credential claims are made).
-- "End-to-end coordination" / "from concept through install" phrasing used instead of "turnkey"
-  unless scope clearly supports it.
+- Execution-coordination phrasing ("coordinating execution on site", "from concept through
+  documentation and execution coordination") is used instead of claims that the studio itself performs
+  contracting or installation; "turnkey" is avoided.
 - Image `alt` text describes the work and attributes "by Studio NACRT"; the one project with an
   unverifiable location (Mimet) has its city removed rather than guessed.
 
@@ -87,14 +114,26 @@ physical location, which we do not have. See blockers.
 
 ## 7. Blockers — require the client before shipping
 
-1. **Verified NAP** — if/when a real U.S. address + phone exist, upgrade Organization →
-   `LocalBusiness`/`InteriorDesignBusiness`, add a Google Business Profile, and add NAP to footer +
-   Contact. Until then, do not add placeholders.
-2. **Google Business Profile URL** — needed for local pack visibility and as a `sameAs`.
+1. **Verified NAP → GBP / LocalBusiness upgrade trigger.** The site is built to accept this with a small,
+   well-defined change once a real, verified U.S. business name + street address + phone exist. The exact
+   upgrade, to apply *only after* NAP is verified:
+   - Add a JSON-LD `LocalBusiness` / `InteriorDesignBusiness` node (or extend `/#organization`) on Home,
+     About, and Contact with `name`, `address` (`PostalAddress`: street, city `Miami`, region `FL`,
+     postal code, `US`), `telephone` (E.164), `geo` (lat/lng), `openingHoursSpecification`, `image`, and
+     `url` = `https://studionacrt.us`.
+   - Add the same NAP as **visible** text in the footer and on Contact (schema must mirror visible text).
+   - Create the Google Business Profile, then add its URL to the Organization `sameAs` array.
+   Until every element is verified, add **no** placeholder address, phone, geo, or hours — the current
+   `Organization`-only + service-area model stays as-is. `ProfessionalService`/`LocalBusiness` remain
+   deliberately absent until this trigger fires.
+2. **Google Business Profile URL** — needed for local pack visibility and as a `sameAs` (part of the
+   trigger above).
 3. **Official social/profile URLs** — confirm the correct Instagram handle and any LinkedIn/Houzz/
    Pinterest profiles before adding them to `sameAs`.
-4. **U.S. project proof** — any U.S. project (location, name, photos with permission) can seed a
-   genuinely local portfolio; today the portfolio is European.
+4. **U.S. project proof** — any verified U.S. project (location, name, photos with permission) can seed a
+   genuinely local portfolio. Carl has confirmed rights to the shared team's photos, so the current work
+   is shown as the shared international team's body of work; U.S.-specific locations are added only once a
+   U.S. project is verified.
 5. **Real OG image + logo files** — confirm `/og-image.jpg` and `/logo-mark.png` render correctly.
 
 ## 8. Measurement plan

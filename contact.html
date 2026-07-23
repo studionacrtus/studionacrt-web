@@ -75,13 +75,24 @@
           <select id="cf-type" name="project_type">
             <option>Residential</option>
             <option>Condo &amp; Penthouse</option>
-            <option>Multifamily</option>
+            <option>Multifamily / Developer</option>
+            <option>Hospitality / Condo-Hotel</option>
             <option>Commercial</option>
-            <option>Hospitality</option>
             <option>3D Visualization only</option>
           </select>
         </div>
         <div><label for="cf-location">Location</label><input type="text" id="cf-location" name="location" placeholder="City, State" autocomplete="address-level2"></div>
+        <div>
+          <label for="cf-timeframe">Timeframe</label>
+          <select id="cf-timeframe" name="timeframe">
+            <option>Not sure yet</option>
+            <option>Exploring / planning</option>
+            <option>Within 3 months</option>
+            <option>3&ndash;6 months</option>
+            <option>6&ndash;12 months</option>
+            <option>12+ months</option>
+          </select>
+        </div>
         <div><label for="cf-message">Message</label><textarea id="cf-message" name="message" required></textarea></div>
         <button type="submit">Send Inquiry</button>
         <p class="form-note">By submitting, you agree to be contacted by Studio NACRT US about your inquiry.</p>

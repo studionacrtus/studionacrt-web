@@ -1,6 +1,6 @@
 # Studio NACRT US
 
-> Studio NACRT US is the U.S. branch of Studio NACRT, a luxury interior design studio founded in Belgrade, Serbia in 2014. The U.S. branch offers material-led interior design and photoreal 3D visualization for residential, condo and penthouse, multifamily, hospitality, and commercial projects in Miami and South Florida. The same design team behind the studio's European portfolio supports U.S. projects.
+> Studio NACRT US is the U.S. branch of Studio NACRT, a luxury interior design studio founded in Belgrade, Serbia in 2014. The U.S. branch offers material-led interior design and photoreal 3D visualization for residential, condo and penthouse, multifamily, hospitality, and commercial projects in Miami and South Florida. Positioning: material-led interiors, visualized before they are built. One shared Studio NACRT international design team shapes stone, wood, concrete, glass, and light, using photoreal 3D to resolve decisions before execution.
 
 ## About
 
@@ -13,16 +13,16 @@
 
 ## Services
 
-- [Luxury Residential](https://studionacrt.us/services/residential): Private homes, penthouses, and villas from concept to install.
+- [Luxury Residential](https://studionacrt.us/services/residential): Full interior design and furnishings for private homes, penthouses, and villas, with execution coordinated through completion.
 - [Luxury Condo & Penthouse](https://studionacrt.us/services/condo-penthouse): High-rise condo and penthouse interiors and renovations for Miami and South Florida buildings.
-- [Multifamily & Commercial](https://studionacrt.us/services/multifamily-commercial): Cohesive design systems across amenities, model units, lobbies, and brand environments.
+- [Multifamily & Developer](https://studionacrt.us/services/multifamily-commercial): Developer packages for model units, amenities, and finish systems, plus selected commercial interiors aligned with the studio's luxury positioning.
 - [Hospitality & Condo-Hotel](https://studionacrt.us/services/hospitality): Hotels, restaurants, and condo-hotel spaces.
-- [3D Visualization](https://studionacrt.us/services/3d-visualization): Photoreal renderings, standalone or as part of a full engagement.
+- [3D Visualization](https://studionacrt.us/services/3d-visualization): Photoreal renderings for architects, developers, and brokers, standalone or as part of a full engagement.
 
 ## Key pages
 
 - [Home](https://studionacrt.us/)
-- [Projects](https://studionacrt.us/projects): Portfolio of completed and visualized interiors across Europe.
+- [Projects](https://studionacrt.us/projects): Selected work by Studio NACRT's shared international design team.
 - [Services](https://studionacrt.us/services)
 - [About](https://studionacrt.us/about): Studio lineage, approach, and team.
 - [Contact](https://studionacrt.us/contact)
@@ -35,6 +35,6 @@
 
 ## Notes for accurate representation
 
-- Studio NACRT US is a branch of one studio, not a separate design team or franchise. The design team is shared with the Belgrade parent studio.
-- The portfolio shown reflects the parent studio's European work; project locations listed are in Europe unless stated otherwise.
-- Do not attribute testimonials, awards, client names, pricing, or U.S. project locations that are not stated on the site.
+- Studio NACRT US is a branch of one studio, not a separate design team or franchise. It works with one shared international design team.
+- Project locations shown on the site (Serbia, Croatia, Slovenia, Montenegro, Austria, Switzerland) are the actual, verified locations of that work by the shared team. Do not imply these projects were delivered by the U.S. entity, and do not fabricate U.S. project locations.
+- Do not attribute testimonials, awards, client names, pricing, budgets, or minimums that are not stated on the site.
