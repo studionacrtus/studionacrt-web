@@ -7,8 +7,29 @@ window.addEventListener('scroll', () => {
 // ---- Mobile menu ----
 const menuBtn = document.querySelector('.menu-btn');
 const nav = document.querySelector('nav');
-if (menuBtn) menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
-document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+const navList = document.getElementById('primary-nav');
+function setMenu(open){
+  if (!nav || !menuBtn) return;
+  nav.classList.toggle('open', open);
+  document.body.classList.toggle('nav-open', open);
+  menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  menuBtn.innerHTML = open ? '&#10005;' : '&#9776;';
+}
+if (menuBtn){
+  menuBtn.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+}
+// Close before navigating when a link is chosen
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+// Backdrop click (on the overlay itself, not a link) closes
+if (navList) navList.addEventListener('click', (e) => { if (e.target === navList) setMenu(false); });
+// Escape closes and restores focus to the toggle button
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && nav && nav.classList.contains('open')){
+    setMenu(false);
+    menuBtn.focus();
+  }
+});
 
 // ---- Reveal on scroll ----
 const io = new IntersectionObserver(es => {

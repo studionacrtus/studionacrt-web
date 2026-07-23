@@ -23,7 +23,8 @@ nav a{font-size:12.5px;letter-spacing:.18em;text-transform:uppercase;color:var(-
 nav a:hover{opacity:1}
 nav a::after{content:'';position:absolute;left:0;bottom:-6px;width:0;height:1px;background:#fff;transition:width .3s}
 nav a:hover::after{width:100%}
-.menu-btn{display:none;background:none;border:none;color:#fff;font-size:24px;cursor:pointer}
+.menu-btn{display:none;background:none;border:none;color:#fff;font-size:24px;line-height:1;cursor:pointer;position:relative;z-index:101;padding:6px;margin:-6px}
+body.nav-open{overflow:hidden}
 
 /* Hero */
 .hero{height:100vh;min-height:640px;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
