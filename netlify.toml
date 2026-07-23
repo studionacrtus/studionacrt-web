@@ -25,6 +25,26 @@
   to = "/services/residential.html"
   status = 200
 [[redirects]]
+  from = "/services/condo-penthouse"
+  to = "/services/condo-penthouse.html"
+  status = 200
+[[redirects]]
+  from = "/insights"
+  to = "/insights/index.html"
+  status = 200
+[[redirects]]
+  from = "/insights/miami-luxury-condo-interior-design-process"
+  to = "/insights/miami-luxury-condo-interior-design-process.html"
+  status = 200
+[[redirects]]
+  from = "/insights/planning-a-south-florida-condo-renovation"
+  to = "/insights/planning-a-south-florida-condo-renovation.html"
+  status = 200
+[[redirects]]
+  from = "/insights/how-3d-visualization-reduces-decision-risk"
+  to = "/insights/how-3d-visualization-reduces-decision-risk.html"
+  status = 200
+[[redirects]]
   from = "/services/multifamily-commercial"
   to = "/services/multifamily-commercial.html"
   status = 200

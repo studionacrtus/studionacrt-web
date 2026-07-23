@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | Studio NACRT US</title>
-<meta name="description" content="Start a project with Studio NACRT US. Luxury interior design in Miami, FL. Email info@studionacrt.us.">
+<meta name="description" content="Start a luxury interior design project with Studio NACRT US, serving Miami and South Florida. Email info@studionacrt.us to discuss residential, condo, multifamily, commercial, or hospitality interiors.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
@@ -17,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Studio NACRT US">
 <meta property="og:title" content="Contact | Start a Luxury Interior Design Project - Studio NACRT US">
-<meta property="og:description" content="Start a project with Studio NACRT US. Luxury interior design in Miami, FL. Email info@studionacrt.us to discuss residential, multifamily, commercial, or hospitality interiors.">
+<meta property="og:description" content="Start a project with Studio NACRT US, luxury interior design serving Miami and South Florida. Email info@studionacrt.us to discuss residential, condo, multifamily, commercial, or hospitality interiors.">
 <meta property="og:url" content="https://studionacrt.us/contact">
 <meta property="og:image" content="https://studionacrt.us/og-image.jpg">
 <meta property="og:image:width" content="1200">
@@ -25,7 +25,7 @@
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Contact | Start a Luxury Interior Design Project - Studio NACRT US">
-<meta name="twitter:description" content="Start a project with Studio NACRT US. Luxury interior design in Miami, FL. Email info@studionacrt.us to discuss residential, multifamily, commercial, or hospitality interiors.">
+<meta name="twitter:description" content="Start a project with Studio NACRT US, luxury interior design serving Miami and South Florida. Email info@studionacrt.us to discuss residential, condo, multifamily, commercial, or hospitality interiors.">
 <meta name="twitter:image" content="https://studionacrt.us/og-image.jpg">
 </head>
 <body>
@@ -36,6 +36,7 @@
       <li><a href='/'>Home</a></li>
       <li><a href='/projects'>Projects</a></li>
       <li><a href='/services'>Services</a></li>
+      <li><a href='/insights'>Insights</a></li>
       <li><a href='/about'>About</a></li>
       <li><a href='/contact'>Contact</a></li>
     </ul>
@@ -53,8 +54,8 @@
         <a href="mailto:info@studionacrt.us">info@studionacrt.us</a>
       </div>
       <div class="cinfo">
-        <div class="lbl">Studio</div>
-        <p>Miami, FL</p>
+        <div class="lbl">Serving</div>
+        <p>Miami &amp; South Florida</p>
       </div>
       <div class="cinfo">
         <div class="lbl">Follow</div>
@@ -63,26 +64,28 @@
     </div>
 
     <div class="reveal">
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <form name="contact" id="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact">
         <input type="hidden" name="form-name" value="contact">
-        <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
-        <div><label>Name</label><input type="text" name="name" required></div>
-        <div><label>Email</label><input type="email" name="email" required></div>
-        <div><label>Phone</label><input type="tel" name="phone"></div>
+        <p class="hp-field" hidden aria-hidden="true"><label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div><label for="cf-name">Name</label><input type="text" id="cf-name" name="name" autocomplete="name" required></div>
+        <div><label for="cf-email">Email</label><input type="email" id="cf-email" name="email" autocomplete="email" required></div>
+        <div><label for="cf-phone">Phone</label><input type="tel" id="cf-phone" name="phone" autocomplete="tel"></div>
         <div>
-          <label>Project Type</label>
-          <select name="project_type">
+          <label for="cf-type">Project Type</label>
+          <select id="cf-type" name="project_type">
             <option>Residential</option>
+            <option>Condo &amp; Penthouse</option>
             <option>Multifamily</option>
             <option>Commercial</option>
             <option>Hospitality</option>
             <option>3D Visualization only</option>
           </select>
         </div>
-        <div><label>Location</label><input type="text" name="location" placeholder="City, State"></div>
-        <div><label>Message</label><textarea name="message" required></textarea></div>
+        <div><label for="cf-location">Location</label><input type="text" id="cf-location" name="location" placeholder="City, State" autocomplete="address-level2"></div>
+        <div><label for="cf-message">Message</label><textarea id="cf-message" name="message" required></textarea></div>
         <button type="submit">Send Inquiry</button>
         <p class="form-note">By submitting, you agree to be contacted by Studio NACRT US about your inquiry.</p>
+        <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
       </form>
     </div>
   </div>
@@ -102,7 +105,7 @@
       <div class="foot-col">
         <h4>Contact</h4>
         <a href="mailto:info@studionacrt.us">info@studionacrt.us</a>
-        <p>Miami, FL</p>
+        <p>Miami &amp; South Florida</p>
       </div>
       <div class="foot-col">
         <h4>Follow</h4>

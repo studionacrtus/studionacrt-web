@@ -84,11 +84,35 @@ document.addEventListener('keydown', e=>{
   if(e.key==='Escape') closeLb();
 });
 
-// ---- Contact form (Netlify forms) ----
-function handleForm(e){
-  // Netlify handles submission; show a thank-you if JS present
-  const f = e.target;
-  if (f.dataset.ok) return true;
+// ---- Contact form (Netlify forms, AJAX submit with status states) ----
+function initContactForm(){
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+  if (!form || !status) return;
+  function setStatus(type, msg){
+    status.className = 'form-status show ' + type;
+    status.textContent = msg;
+  }
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    const btn = form.querySelector('button[type="submit"]');
+    const original = btn ? btn.textContent : '';
+    if (btn){ btn.disabled = true; btn.textContent = 'Sending...'; }
+    const data = new URLSearchParams(new FormData(form)).toString();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: data
+    }).then(function(res){
+      if (!res.ok) throw new Error('Request failed');
+      form.reset();
+      setStatus('success', 'Thank you. Your inquiry has been sent and we will be in touch shortly.');
+    }).catch(function(){
+      setStatus('error', 'Something went wrong. Please email info@studionacrt.us and we will respond directly.');
+    }).finally(function(){
+      if (btn){ btn.disabled = false; btn.textContent = original; }
+    });
+  });
 }
 
 // ---- Lazy-load heavy below-fold videos (e.g. keyhole) ----
@@ -132,4 +156,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
   renderFeatured();
   renderProjects();
   initLazyVideos();
+  initContactForm();
 });
