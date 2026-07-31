@@ -31,16 +31,58 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": "ProfessionalService",
+ "@type": [
+  "ProfessionalService",
+  "InteriorDesignService"
+ ],
+ "@id": "https://studionacrt.us/#business",
  "name": "Studio NACRT US",
  "url": "https://studionacrt.us",
  "image": "https://studionacrt.us/og-image.jpg",
+ "logo": "https://studionacrt.us/apple-touch-icon.png",
  "email": "info@studionacrt.us",
- "description": "Luxury interior design for commercial, multifamily, and residential spaces. Material-led design and photoreal 3D visualization.",
+ "description": "Luxury interior design and photoreal 3D visualization for high-end residential, condo and penthouse, multifamily, hospitality, and commercial spaces. Miami based, serving clients across the United States.",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "740 W 26th St",
+  "addressLocality": "Hialeah",
+  "addressRegion": "FL",
+  "postalCode": "33010",
+  "addressCountry": "US"
+ },
+ "geo": {
+  "@type": "GeoCoordinates",
+  "latitude": 25.8434,
+  "longitude": -80.2956
+ },
  "areaServed": [
   {
    "@type": "City",
    "name": "Miami"
+  },
+  {
+   "@type": "City",
+   "name": "Miami Beach"
+  },
+  {
+   "@type": "City",
+   "name": "Coral Gables"
+  },
+  {
+   "@type": "City",
+   "name": "Coconut Grove"
+  },
+  {
+   "@type": "City",
+   "name": "Brickell"
+  },
+  {
+   "@type": "City",
+   "name": "Fort Lauderdale"
+  },
+  {
+   "@type": "City",
+   "name": "Palm Beach"
   },
   {
    "@type": "State",
@@ -52,14 +94,50 @@
   }
  ],
  "knowsAbout": [
-  "Interior Design",
+  "Luxury Interior Design",
   "Luxury Residential Interiors",
-  "Commercial Interiors",
+  "Condo And Penthouse Design",
+  "Multifamily Interior Design",
+  "Commercial Interior Design",
   "Hospitality Design",
-  "3D Visualization"
+  "Photoreal 3D Visualization",
+  "Interior Architecture"
  ],
+ "makesOffer": [
+  {
+   "@type": "Offer",
+   "itemOffered": {
+    "@type": "Service",
+    "name": "Luxury Residential Interior Design"
+   }
+  },
+  {
+   "@type": "Offer",
+   "itemOffered": {
+    "@type": "Service",
+    "name": "Multifamily And Commercial Interior Design"
+   }
+  },
+  {
+   "@type": "Offer",
+   "itemOffered": {
+    "@type": "Service",
+    "name": "Hospitality And Condo-Hotel Design"
+   }
+  },
+  {
+   "@type": "Offer",
+   "itemOffered": {
+    "@type": "Service",
+    "name": "Photoreal 3D Visualization"
+   }
+  }
+ ],
+ "priceRange": "$$$$",
  "sameAs": [
-  "https://instagram.com/studionacrt.us"
+  "https://instagram.com/studionacrt.us",
+  "https://www.facebook.com/studionacrt/",
+  "https://studionacrt.com"
  ],
  "parentOrganization": {
   "@type": "Organization",
@@ -78,6 +156,46 @@
  "@type": "WebSite",
  "name": "Studio NACRT US",
  "url": "https://studionacrt.us"
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What areas does Studio NACRT US serve?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Studio NACRT US is Miami based and serves luxury interior design clients across Miami, Miami Beach, Coral Gables, Coconut Grove, Brickell, Fort Lauderdale, Palm Beach, and throughout the United States."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What types of projects does Studio NACRT US design?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "We design luxury residences, condos and penthouses, multifamily developments, hospitality and condo-hotel spaces, restaurants, and commercial interiors, from first concept to final install."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does Studio NACRT US offer 3D visualization?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Photoreal 3D visualization is a core service. We render interiors with accurate light, materials, and detail so clients can approve the space before it is built, available as part of a full design engagement or as a standalone service."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What makes Studio NACRT US different from other Miami interior designers?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Studio NACRT US brings European design discipline and material-led minimalism, backed by years of 3D visualization mastery, to the Miami luxury market. It is the United States branch of Studio NACRT, founded in Belgrade in 2014."
+   }
+  }
+ ]
 }
 </script>
 </head>
@@ -105,18 +223,17 @@
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <h1>STUDIO NACRT</h1>
+    <h1><span class="wordmark-line">STUDIO NACRT</span><span class="visually-hidden">Luxury Interior Design And Photoreal 3D Visualization In Miami</span></h1>
     <p class="tag">From First Impression To Lasting Obsession</p>
+    <div class="hero-cta">
+      <a href="/contact" class="btn-primary">Start A Project</a>
+      <a href="/projects" class="btn-secondary">View Our Projects</a>
+    </div>
   </div>
   <div class="scroll-hint">Scroll To Discover</div>
 </section>
 
-<section class="intro">
-  <div class="wrap reveal">
-    <p class="eyebrow">Luxury Interior Design &middot; Miami</p>
-    <p>Welcome To Studio NACRT US, Where Home And Design Come Together In The Heart Of Miami. We Bring European Design Discipline To Luxury Commercial, Multifamily, And Residential Spaces - From First Sketch To Final Install.</p>
-  </div>
-</section>
+
 
 <section class="wrap">
   <div class="sec-head reveal">
@@ -153,6 +270,13 @@
   </div>
 </section>
 
+<section class="intro">
+  <div class="wrap reveal">
+    <p class="eyebrow">Luxury Interior Design &middot; Miami</p>
+    <p>Welcome To Studio NACRT US, Where Home And Design Come Together In The Heart Of Miami. We Bring European Design Discipline To Luxury Commercial, Multifamily, And Residential Spaces - From First Sketch To Final Install.</p>
+  </div>
+</section>
+
 <!-- Footer -->
 <footer>
   <div class="wrap">
@@ -168,7 +292,7 @@
       <div class="foot-col">
         <h4>Contact</h4>
         <a href="mailto:info@studionacrt.us">info@studionacrt.us</a>
-        <p>Miami, FL</p>
+        <p>740 W 26th St<br>Hialeah, FL 33010</p>
       </div>
       <div class="foot-col">
         <h4>Follow</h4>
